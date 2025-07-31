@@ -3,11 +3,11 @@ import ClasesModelo.*;
 import java.util.Scanner;
 
 public class controladorgimnasio {
-    Salon salon;
+    public Salon salon;
 
     Scanner scanner = new Scanner(System.in); 
     
-    controladorgimnasio(){
+    public controladorgimnasio(){
         this.salon = new Salon();
     }
     public boolean limpiarSalon(){
@@ -32,11 +32,11 @@ public class controladorgimnasio {
         return Tamaño;
     }
 
-    public boolean getDisponibilidad(boolean Disponibilidad){
-        return Disponibilidad;
+    public boolean getDisponibilidad(boolean disponibilidadBaño){
+        return disponibilidadBaño;
     }
 
-    Maquina maquina;
+    public Maquina maquina;
 
     public void setMaquina(Maquina maquina) {
         this.maquina = maquina;
@@ -89,8 +89,8 @@ public class controladorgimnasio {
 
     
 
-    public boolean ObtenerGenero(boolean Genero) {
-        return Genero;
+    public boolean ObtenerGenero(boolean generoBaño) {
+        return generoBaño;
     }
 
   
@@ -108,11 +108,19 @@ public class controladorgimnasio {
         this.Peso = peso; 
     }
     // Espejo
-    public boolean EstadoBaño(boolean Limpieza){
-        return Limpieza;
+    public boolean EstadoBaño(boolean estadoEspejo){
+        return estadoEspejo;
     }
     public double elTamaño(double Tamaño){
         return Tamaño;
+    }
+    public void setBarraPeso(int peso) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setBarraPeso'");
+    }
+    public String getBarraPeso() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getBarraPeso'");
     }
 
 }
