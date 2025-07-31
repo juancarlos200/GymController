@@ -27,6 +27,10 @@ public class Salon {
     }
 
     // Métodos
+
+    public String getNombre() {
+        return nombre;
+    }
     public String getTamaño() {
         return tamaño + " m²";
     }
@@ -35,13 +39,28 @@ public class Salon {
         System.out.println("El salón " + nombre + " ha sido limpiado.");
     }
 
-    public void cambiarDisponibilidad() {
+    public boolean cambiarDisponibilidad() {
         disponible = !disponible;
         System.out.println("La disponibilidad del salón " + nombre + " ahora es: " + (disponible ? "Disponible" : "No disponible"));
     }
 
     public void mostrarTamaño() {
         System.out.println("El tamaño del salón " + nombre + " es de " + tamaño + " m².");
+    }
+
+    public void setNombre(String nombreSalon) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setNombre'");
+    }
+
+    public void setDisponibilidad(boolean disponibilidadSalon) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setDisponibilidad'");
+    }
+
+    public void setTamaño(double tamañoSalon) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setTamaño'");
     }
 }
 
