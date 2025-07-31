@@ -3,28 +3,27 @@ public class Salon {
     private String nombre;
     private boolean disponible;
     private double tamaño;
-    private String genero;
+    
 
     // Constructores
     public Salon() {
         this.nombre = "";
         this.disponible = true;
         this.tamaño = 0.0;
-        this.genero = "";
     }
 
     public Salon(String nombre, boolean disponible) {
         this.nombre = nombre;
         this.disponible = disponible;
         this.tamaño = 0.0;
-        this.genero = "";
+        
     }
 
-    public Salon(String nombre, boolean disponible, double tamaño, String genero) {
+    public Salon(String nombre, boolean disponible, double tamaño) {
         this.nombre = nombre;
         this.disponible = disponible;
         this.tamaño = tamaño;
-        this.genero = genero;
+        
     }
 
     // Métodos
