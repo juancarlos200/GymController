@@ -1,5 +1,3 @@
-package Gym2;
-
 public class Main {
     public static void main(String[] args) {
         // Crear un salón con el constructor vacío
