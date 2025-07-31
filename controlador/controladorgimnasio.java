@@ -10,6 +10,11 @@ public class controladorgimnasio {
     controladorgimnasio(){
         this.salon = new Salon();
     }
+    public boolean limpiarSalon(){
+        salon.limpiar();
+        return true;
+
+    }
 
     public void setSalon(Salon salon) {
         this.salon = salon;
@@ -52,6 +57,18 @@ public class controladorgimnasio {
     public boolean ObtenerDisponibilidadMaquina(Boolean ObtenerDisponibilidadMaquina){
         return ObtenerDisponibilidadMaquina;
     }
+
+    public String infoMaquina(String infoMaquina){
+        return infoMaquina;
+    }
+
+    public void getEstadoMaquina(boolean EstadoMaquina){
+        this.EstadoMaquina = EstadoMaquina; 
+    }
+    public boolean getEstadoMaquina() {
+        return EstadoMaquina;
+    }
+    private boolean EstadoMaquina;
 
     Mancuerna mancuerna;
 

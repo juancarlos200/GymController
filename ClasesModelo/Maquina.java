@@ -19,6 +19,8 @@ public class Maquina {
         return Musculo;
     }
 
+  
+
     public void setMusculo(String musculo) {
         this.Musculo = musculo;
     }
@@ -37,7 +39,7 @@ public class Maquina {
     }
 
     // Método para mostrar información de la máquina
-    public String toString() {
+    public String infoMaquina() {
         return "Maquina para: " + Musculo + " | Estado: " + (Estado ? "Disponible" : "Ocupada");
     }
 
