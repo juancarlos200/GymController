@@ -88,25 +88,30 @@ public class controladorgimnasio {
     }
 
     
-public void ObtenerGenero(boolean Genero){
-        this.Genero = Genero; 
-}
 
-public void ObtenerDisponibilidad(boolean Disponibilidad){
-        this.Disponibilidad = Disponibilidad;
-}
-// Barra
-public double ObtenerGrozor() {
-        return Grozor;}
+    public boolean ObtenerGenero(boolean Genero) {
+        return Genero;
+    }
 
-public void EstablecePesor(int peso){
+  
+    
+    public boolean getDisponibilidad() {
+        return Disponibilidad;
+    }
+    // Barra
+    public double ObtenerGrozor(double Grozor){ 
+        return Grozor;
+    }
 
-        this.Peso = peso; }
-// Espejo
-public boolean EstadoBaño(){
+
+    public void EstablecePesor(int peso){
+        this.Peso = peso; 
+    }
+    // Espejo
+    public boolean EstadoBaño(boolean Limpieza){
         return Limpieza;
     }
-public double elTamaño(){
+    public double elTamaño(double Tamaño){
         return Tamaño;
     }
 
