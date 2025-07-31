@@ -15,7 +15,7 @@ public class Espejo {
         return Tamaño;
     }
 
-    public boolean EstadoBaño(){
+    public boolean EstadoEspejo(){
         return Limpieza;
     }
 }
