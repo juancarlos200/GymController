@@ -123,7 +123,35 @@ public class main {
                     break;
                 
                 case 14:
+                    System.out.print("Cambiar estado de la máquina: ");
+                    controller.maquina.cambiarEstado();
+                    System.out.println("Estado de la máquina cambiado a: " + (controller.maquina.isEstado() ? "Disponible" : "Ocupada"));
+                    break;
                 
+                case 15:
+                    System.out.print("Información de la máquina: ");
+                    String infoMaquina = controller.maquina.infoMaquina();
+                    System.out.println(infoMaquina);
+                    break;
+                
+                case 16:
+                    System.out.print("Ingrese el peso de las mancuernas: ");
+                    double pesoMancuernas = scanner.nextDouble();
+                    controller.setPesoMancuernas(pesoMancuernas);
+                    System.out.println("Peso de las mancuernas establecido a: " + controller.getPesoMancuernas());
+                    break;
+                
+                case 17:
+                    System.out.println("ingresa el estado de las mancuernas (disponible/ocupada): ");
+                    boolean estadoMancuernas = scanner.nextBoolean();
+                    controller.ObtenerEstadoMancuerna(estadoMancuernas);
+                    System.out.println("Estado de las mancuernas: " + (controller.getEstadoMancuernas() ? "Disponible" : "Ocupada"));
+                    break;
+                
+                case 0:
+                    System.out.println("Saliendo del gimnasio...");
+                    scanner.close();
+                    return;
             }
         }
     }

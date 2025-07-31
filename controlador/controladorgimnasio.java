@@ -122,5 +122,21 @@ public class controladorgimnasio {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'getBarraPeso'");
     }
+    public void setPesoMancuernas(double pesoMancuernas) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setPesoMancuernas'");
+    }
+    public String getPesoMancuernas() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getPesoMancuernas'");
+    }
+    public boolean getEstadoMancuernas() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getEstadoMancuernas'");
+    }
+    public void ObtenerEstadoMancuerna(boolean estadoMancuernas) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'ObtenerEstadoMancuerna'");
+    }
 
 }
