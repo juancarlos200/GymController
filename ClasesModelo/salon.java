@@ -1,4 +1,4 @@
- public class Salon {
+public class Salon {
     // Atributos
     private String nombre;
     private boolean disponible;
