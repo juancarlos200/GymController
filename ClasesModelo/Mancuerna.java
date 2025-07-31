@@ -1,5 +1,3 @@
-package Gym2;
-
 public class Mancuerna {
     // Atributos
     private int peso;
