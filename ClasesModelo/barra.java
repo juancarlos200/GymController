@@ -1,5 +1,3 @@
-package Gym2;
-
 public class barra {
     // Atributos
     private int Peso;

@@ -1,5 +1,3 @@
-package Gym2;
-
 public class Espejo {
     // Atributo
     private double Tamaño;
