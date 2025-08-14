@@ -2,6 +2,7 @@ public class Mancuerna {
     // Atributos
     private int peso;
     private String estado;
+    
 
     // ConstructorPorDefecto
     public Mancuerna() {

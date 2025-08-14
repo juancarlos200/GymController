@@ -3,6 +3,8 @@ public class Salon {
     private String nombre;
     private boolean disponible;
     private double tamaño;
+    private String Casillero;
+    
     
 
     // Constructores
@@ -62,6 +64,8 @@ public class Salon {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'setTamaño'");
     }
+
+    <>  
 }
 
 

@@ -1,7 +1,10 @@
+import java.util.ArrayList;
+
 public class barra {
     // Atributos
     private int Peso;
     private double Grozor;
+    private ArrayList<Disco> discos;
 
     // ConstructoresPorDefecto
 
@@ -50,10 +53,13 @@ public class barra {
 
     // ResultadoModicado
 
-    public void hacerEspalda(){
-        System.out.println("Estas haciendo Espalda en una barra de" + Peso + "kg y" + Grozor + "cm de grozor");
+    public String hacerEspalda(){
+       return "Estas haciendo Espalda en una barra de" + Peso + "kg y" + Grozor + "cm de grozor";
     }
 
+    public void agregarPeso(Disco pesoExtra) {
+        discos.add(pesoExtra);
+    }
 
 
 }
