@@ -1,11 +1,11 @@
-public class barra {
+public class Barra {
     // Atributos
     private int Peso;
     private double Grozor;
 
     // ConstructoresPorDefecto
 
-    public barra(){
+    public Barra(){
         this.Peso = 0;
         this.Grozor = 0.0;
 
@@ -13,7 +13,7 @@ public class barra {
 
     // ConstructorPorParametro
 
-    public barra(int peso, double Grozor){
+    public Barra(int peso, double Grozor){
         this.Peso = peso;
         this.Grozor = Grozor;
 
