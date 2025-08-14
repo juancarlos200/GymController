@@ -1,14 +1,23 @@
+
 package controlador;
-import ClasesModelo.*;
+import ClasesModelo.Salon;
+import ClasesModelo.Maquina;
+import ClasesModelo.Mancuerna;
 import java.util.Scanner;
 
 public class controladorgimnasio {
     public Salon salon;
+    public Maquina maquina;
+    public Mancuerna mancuerna;
+    public boolean Disponibilidad = true;
+    public int Peso = 0;
 
     Scanner scanner = new Scanner(System.in); 
     
     public controladorgimnasio(){
         this.salon = new Salon();
+        this.maquina = new Maquina();
+        this.mancuerna = new Mancuerna();
     }
     public boolean limpiarSalon(){
         salon.limpiar();
