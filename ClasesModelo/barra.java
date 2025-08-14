@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 import java.util.ArrayList;
 
 public class barra {
+=======
+public class Barra {
+>>>>>>> 07595d10e3fd134c3a2d0dfd5dca4c2070a3edfb
     // Atributos
     private int Peso;
     private double Grozor;
@@ -8,7 +12,7 @@ public class barra {
 
     // ConstructoresPorDefecto
 
-    public barra(){
+    public Barra(){
         this.Peso = 0;
         this.Grozor = 0.0;
 
@@ -16,7 +20,7 @@ public class barra {
 
     // ConstructorPorParametro
 
-    public barra(int peso, double Grozor){
+    public Barra(int peso, double Grozor){
         this.Peso = peso;
         this.Grozor = Grozor;
 
