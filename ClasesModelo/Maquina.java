@@ -46,3 +46,20 @@ public class Maquina {
 
     
 }
+public static void main(String[] args) {
+        // Arreglo bidimensional nativo de 2x2
+        Maquina[][] maquinas = new Maquina[2][2];
+
+        // Inicializar manualmente
+        maquinas[0][0] = new Maquina("Pecho", true);
+        maquinas[0][1] = new Maquina("Espalda", false);
+        maquinas[1][0] = new Maquina("Pierna", true);
+        maquinas[1][1] = new Maquina("Bíceps", false);
+
+        // Mostrar la información
+        for (int i = 0; i < maquinas.length; i++) {
+            for (int j = 0; j < maquinas[i].length; j++) {
+                System.out.println("Máquina [" + i + "][" + j + "]: " + maquinas[i][j].infoMaquina());
+            }
+        }
+}
