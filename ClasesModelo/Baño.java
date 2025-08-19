@@ -2,7 +2,7 @@ package Gym2;
 
 public class Baño {
     // Atributos
-    private String genero;
+    private boolean genero;
     private boolean Disponibilidad;
 
     // ConsutrctoresPorDefecto
